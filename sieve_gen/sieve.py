@@ -1,3 +1,5 @@
+#Implementation using a generator
+
 _primeslist = [2]
 
 

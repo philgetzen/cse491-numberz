@@ -9,6 +9,7 @@ def _is_prime(primes, n):
     return True
 
 def next():
+    global _primeslist
     start = _primeslist[-1] + 1
     while 1:
         if _is_prime(_primeslist, start):
